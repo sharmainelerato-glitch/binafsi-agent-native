@@ -1,0 +1,18 @@
+/* BINAFSI app-specific enhancements; additive to existing cinematic styles */
+.binafsi-integrated .binafsi-ask-btn,.binafsi-floating-ai{background:linear-gradient(125deg,#70395f,#9c537c)!important;color:#fff!important;border:1px solid #d4a8bd77!important;border-radius:14px!important;box-shadow:0 8px 28px #3d173f2b!important;font-weight:700!important;cursor:pointer}
+.binafsi-integrated .binafsi-ask-btn{padding:11px 16px!important;min-height:40px!important;opacity:1!important;display:inline-flex;align-items:center;justify-content:center;white-space:normal;text-align:center}
+.binafsi-floating-ai{position:fixed;right:23px;bottom:24px;z-index:60;padding:13px 18px;font-size:14px;display:flex;gap:8px;align-items:center}
+.binafsi-integrated .binafsi-sidebar{overflow-y:auto!important;scrollbar-width:thin}
+.binafsi-integrated .sidebar .navitem{min-height:44px;display:flex;align-items:center;gap:9px}
+.binafsi-integrated .binafsi-profile-trigger{display:flex;width:100%;text-align:left;align-items:center;cursor:pointer;background:none;border:0;color:inherit}
+.binafsi-chat-hint{font-size:13px;line-height:1.55;color:#704b61;background:#f8eef5;border-left:3px solid #9c537c;padding:11px 13px;border-radius:8px}
+.binafsi-notifications{padding:14px 18px;margin:12px 0 16px;border:1px solid #a26380;background:#fceff5;color:#482a40;border-radius:14px;position:relative}
+.binafsi-notifications>button{float:right;color:#5a3652;text-decoration:underline;background:transparent;border:0;cursor:pointer}
+.binafsi-notifications p{margin:8px 0 0;font-size:14px}
+.binafsi-settings{display:grid;gap:15px;max-width:840px}.binafsi-settings label{display:grid;gap:7px}.binafsi-settings label.binafsi-check{display:flex;align-items:center;gap:10px}.binafsi-settings input:not([type=checkbox]),.binafsi-settings select{max-width:480px;min-height:42px;padding:9px 11px;border:1px solid #c9abbc;border-radius:10px;background:#fff;color:#403342}
+.binafsi-modal-backdrop{position:fixed;inset:0;background:rgba(15,14,26,.72);backdrop-filter:blur(7px);display:flex;align-items:center;justify-content:center;padding:22px;z-index:120}
+.binafsi-modal{width:min(540px,100%);max-height:88vh;overflow:auto;border-radius:22px;background:#fff9fc;color:#2e2131;box-shadow:0 24px 85px #0006;padding:27px 29px;border:1px solid #f8ddeb}
+.binafsi-modal h2{font:500 28px/1.18 Georgia,serif;color:#43213d;margin:11px 0 12px}.binafsi-modal p{line-height:1.6}.binafsi-modal .quick-actions{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:12px;margin-top:23px}.binafsi-modal .quick-actions button{min-height:42px;padding:10px 18px;border-radius:10px}
+.binafsi-modal-moves{background:#f6eaf1;border:1px solid #d9b9cd;border-radius:12px;padding:14px;margin-top:14px}.binafsi-modal-moves p{margin:6px 0}
+@media(max-width:720px){.binafsi-floating-ai{right:14px;bottom:14px;padding:11px 15px}.binafsi-integrated .top-controls{display:flex;flex-wrap:wrap;gap:8px}.binafsi-modal{padding:20px}}
+@media(prefers-reduced-motion:reduce){.binafsi-floating-ai,.binafsi-integrated .binafsi-ask-btn{transition:none!important;animation:none!important}}
